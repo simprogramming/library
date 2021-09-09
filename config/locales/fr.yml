@@ -1,0 +1,5 @@
+fr:
+  hello: "Salut mon ami"
+  pages:
+    home:
+      test: "Le premier test"
