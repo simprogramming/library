@@ -28,17 +28,6 @@ gem "jbuilder", "~> 2.7"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.4.4", require: false
 
-gem "autoprefixer-rails"
-gem "devise"
-gem "font-awesome-sass", "~> 5.6.1"
-gem "haml-rails", "~> 2.0"
-gem "pundit"
-gem "rubocop"
-gem "rubocop-performance"
-gem "rubocop-rails_config"
-gem "simple_form"
-gem 'draper'
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem "byebug", platforms: %i[mri mingw x64_mingw]
@@ -66,6 +55,17 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+
+gem "autoprefixer-rails"
+gem "devise"
+gem "font-awesome-sass", "~> 5.6.1"
+gem "haml-rails", "~> 2.0"
+gem "pundit"
+gem "rubocop"
+gem "rubocop-performance"
+gem "rubocop-rails_config"
+gem "simple_form"
+gem 'draper'
 
 # gem 'rails-i18n', '5.0.3'
 # gem 'devise-i18n', '~> 1.2'
