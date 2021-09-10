@@ -1,0 +1,8 @@
+.form
+  = simple_form_for @cash_flow do |f|
+    = f.input :name
+    = f.input :money
+    = f.input :income, as: :boolean
+    = f.input :category, collection: ["Income", "Food", "Transport", "Restaurant", "Supplement", "Pharmacie", "SQDC/SAQ", "Hair cut", "Technology", "Internet", "Rent", "Phone", "others"]
+
+    = f.submit t("helpers.submit.submit", default: "Submit"), class: "btn btn-outline-primary"

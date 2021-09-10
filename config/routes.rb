@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /fr|en/ do
     root to: "pages#home"
   end
+
+  resource :cash_flows, only: [ :create ]
 end

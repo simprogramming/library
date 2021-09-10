@@ -1,2 +1,6 @@
 en:
   my_wallet: "My Wallet"
+  cash_flow: "Your wallet has been updated"
+  helpers:
+    submit:
+      submit: "Submit"

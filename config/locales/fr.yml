@@ -4,3 +4,7 @@ fr:
     home:
       test: "Le premier test"
   my_wallet: "Mon Portefeuille"
+  cash_flow: "Votre portefeuille a été mis à jour"
+  helpers:
+    submit:
+      submit: "Soumettre"
